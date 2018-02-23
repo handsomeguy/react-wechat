@@ -1,0 +1,60 @@
+.infor-title{
+    margin:0px;
+    padding:16px 0px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.infor-panel{
+    margin-top: 80px;
+}
+.head-img2{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.infor-nickname{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.infor-intro{
+    margin:0px;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+.infor-sm{
+    display: block;
+    text-align: left;
+    padding-left: 43%;
+    font-size: 14px;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.send-to-friend{
+    display: block;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    color:white;
+    margin:0 auto;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    background-color: #42ac3e;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 20px;
+}
+.sm-t{
+    margin-right: 15px;
+}

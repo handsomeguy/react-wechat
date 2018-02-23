@@ -1,0 +1,177 @@
+html,body{
+  margin: 0px;
+  height: 100%;
+}
+*{
+  font-family: '微软雅黑';
+}
+#root{
+  height:100%;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  background-image: url('../assets/background.jpg')
+}
+
+
+
+/* 聊天面板css */
+.chat-box{
+  background-color: white;
+  height: 80%;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  overflow: hidden;
+}
+.panel-left{
+  position: relative;
+  width: 280px;
+  height: 100%;
+  float: left;
+  background: #2e3238;
+}
+.panel-right{
+  position: relative;
+  width: 720px;
+  height: 100%;
+  float: right;
+  background: #eee;
+}
+.img{
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: block;
+  cursor: pointer;
+}
+.header {
+  padding: 18px;
+  position: relative;
+}
+.header .avatar {
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: nowrap;
+  padding-right: 10.625px;
+}
+.header .info .nickname .display_name {
+  display: inline-block;
+  font-weight: 400;
+  width: 156px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  color: #fff;
+  font-size: 18px;
+  vertical-align: top;
+  line-height: 31px;
+  text-decoration: none;
+}
+.web_wechat_add, .web_wechat_addfriend {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+.web_wechat_add {
+  background: url('../assets/logo.png') no-repeat;
+  background-position: -434px -398px;
+  -webkit-background-size: 487px 462px;
+  background-size: 487px 462px;
+}
+.header .info {
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 2000px;
+  text-align: left;
+}
+.toggle-panel{
+  width:100%;
+  height: 30px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #454545;
+}
+.single-item{
+  float: left;
+  width: 49%;
+  height: 30px;
+  border-right:1px solid #5D5D5D;
+}
+.public-chat{
+  background: url('../assets/logo.png') no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.chat-fri-hover{
+  background-position: -185px -96px;
+  -webkit-background-size: 487px 462px;
+  background-size: 487px 462px;
+}
+.chat-fri{
+  background-position: -150px -96px;
+  -webkit-background-size: 487px 462px;
+  background-size: 487px 462px;
+}
+.chat-list{
+  background-position: -220px -96px;
+  -webkit-background-size: 487px 462px;
+  background-size: 487px 462px;
+}
+.chat-list-hover{
+  background-position: -304px -246px;
+  -webkit-background-size: 487px 462px;
+  background-size: 487px 462px;
+}
+.friend-container{
+  width:100%;
+  height:calc(100% - 113px);
+  overflow:auto;
+}
+.recent{
+  width:100%;
+  height:100%;
+  overflow: auto;
+}
+.friendlist{
+  width:100%;
+  height:100%;
+  overflow: auto;
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(139,139,139,0.85);
+  border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0,0,0,0.4);
+}

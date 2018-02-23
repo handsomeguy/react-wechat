@@ -1,0 +1,147 @@
+.talking-name{
+    margin:0px;
+    line-height: 51px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.banner{
+    height:181px;
+}
+.record-box{
+    height:calc(100% - 248px);
+    position: relative;
+    overflow: auto;
+    padding-bottom: 15px;
+}
+.contact-box{
+    height: 100%;
+}
+.sm-tips{
+    margin:0px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -30px;
+    margin-left: -50px;
+    color:#ccc;
+    font-size: 15px;
+}
+.tools-base{
+    height:30px;
+    border-top: 1px solid #d6d6d6;
+}
+.emoji{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url('../assets/logo.png') no-repeat;
+    background-position: -404px -398px;
+    -webkit-background-size: 487px 462px;
+    background-size: 487px 462px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.textinput-box{
+    width:100%;
+}
+.textinput{
+    width: 95%;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    height:100px;
+    background-color: #eee;
+    padding: 5px;
+}
+.right{
+    float:right;
+}
+.sendNewMessage{
+    background-color: #fff;
+    color: #222;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 3px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.sm-tips-bottom{
+    color: #888;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+
+/* record css style */
+.record-time{
+    display: inline-block;
+    font-size: 12px;
+    padding: 1px 18px;
+    color: #b2b2b2;
+}
+.record-text{
+    max-width: 500px;
+    min-height: 1em;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 0 10px;
+    padding: 10px;
+    word-break: break-all;
+}
+.headimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    cursor: pointer;
+}
+.single-record{
+    padding: 0 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.mytext .headimg{
+    float:right;
+}
+.mytext .record-text{
+    float:right;
+    background-color: #B2E281;
+}
+.friendtext .headimg{
+    float:left;
+}
+.friendtext .record-text{
+    float:left;
+    background-color: white;
+}
+.mytext .record-text:after{
+    position: absolute;
+    top: 14px;
+    border: 6px solid transparent;
+    content: " ";
+    border-left-color: #b2e281;
+    border-left-width: 4px;
+    left: 100%;
+}
+.friendtext .record-text:after{
+    position: absolute;
+    top: 14px;
+    border: 6px solid transparent;
+    content: " ";
+    border-right-color: white;
+    border-right-width: 4px;
+    left:-10px;
+}
