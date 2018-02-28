@@ -1,3 +1,6 @@
+用的是create-react-app脚手架
+大家可以自行npm install下载以来
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
